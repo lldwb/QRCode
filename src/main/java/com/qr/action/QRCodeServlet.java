@@ -19,7 +19,7 @@ public class QRCodeServlet extends HttpServlet {
         String url = req.getParameter("codeContent");
         String size = req.getParameter("size");
 //        System.out.println(url);
-        System.out.println(size);
+        //System.out.println(size);
         QRCode qrCode = new QRCodeImpl();
         //传入(文本,输出流,大小)
         qrCode.createImgUrl(url, resp.getOutputStream(), Integer.parseInt(size!=null?size:"300"));
