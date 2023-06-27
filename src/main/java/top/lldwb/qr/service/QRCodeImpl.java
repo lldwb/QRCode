@@ -1,6 +1,6 @@
-package com.qr.service;
+package top.lldwb.qr.service;
 
-import com.qr.util.QRCodeUtils;
+import top.lldwb.qr.util.QRCodeUtils;
 
 import java.io.OutputStream;
 

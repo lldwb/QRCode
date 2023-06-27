@@ -1,4 +1,4 @@
-package com.qr.util;
+package top.lldwb.qr.util;
 
 import com.google.zxing.*;
 import com.google.zxing.client.j2se.BufferedImageLuminanceSource;

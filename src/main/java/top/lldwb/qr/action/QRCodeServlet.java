@@ -1,7 +1,8 @@
-package com.qr.action;
+package top.lldwb.qr.action;
 
-import com.qr.service.QRCode;
-import com.qr.service.QRCodeImpl;
+import top.lldwb.qr.service.QRCode;
+import top.lldwb.qr.service.QRCodeImpl;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

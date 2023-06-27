@@ -1,4 +1,4 @@
-package com.qr.service;
+package top.lldwb.qr.service;
 
 import java.io.OutputStream;
 
